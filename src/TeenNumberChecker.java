@@ -1,6 +1,6 @@
 public class TeenNumberChecker {
     public static void main(String[] args) {
-        hasTeen(12,11,40);
+        hasTeen(12, 11, 40);
         isTeen(16);
     }
     public static boolean hasTeen(int x, int y, int z) {

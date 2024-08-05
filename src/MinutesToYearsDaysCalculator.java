@@ -12,8 +12,8 @@ public class MinutesToYearsDaysCalculator {
             int oneYearInDays = 365;
 
             int hours = (int) minutes / oneHourInMinutes;
-            int days = (int) hours / oneDayInHours;
-            int years = (int) days / oneYearInDays;
+            int days = hours / oneDayInHours;
+            int years = days / oneYearInDays;
             days =  days % oneYearInDays;
 
             System.out.print(minutes + " min" + " = " + years + " y and " + days + " d");
