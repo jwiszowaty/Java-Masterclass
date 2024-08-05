@@ -18,6 +18,5 @@ public class NumberInWord {
                 case 9 -> System.out.println("NINE");
                 default -> System.out.println("OTHER");
             }
-            ;
         }
 }
